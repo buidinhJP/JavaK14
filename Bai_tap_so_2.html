@@ -1,0 +1,86 @@
+<html>
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" type="text/css" href="ngay2.css" />
+      <link rel="icon"type="img/x-icon"href="Favicon.png"/>
+      <title>Tạo Form cá nhân+Favicon</title>
+    </head>
+    <body>
+      <header>
+        <h3>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</h3>
+        <h4>Độc lập-Tự do-Hạnh phúc</h4>
+        <h3>GIẤY XÁC NHẬN<br />THÔNG TIN CÁ NHÂN</h3>
+      </header>
+      <main>
+        <label for="full-name">Họ và tên<i>( bằng chữ in hoa)</i>:</label>
+        <input
+          id="full-name"
+          type="text"
+          placeholder="Nhập họ và tên chữ hoa"
+        />; Giới tính:
+        <label for="answer-1">Nam</label>
+        <input name="gender" id="answer-1" type="radio" />
+        <label for="answer-2">Nữ</label>
+        <input name="gender" id="answer-2" type="radio" />
+        <br />
+        <label for="nickname">Tên gọi khác</label>
+        <input id="nickname" type="text" placeholder="Nhập tên gọi khác" />
+        ; <label for="Sinh ngày">Ngày sinh</label>
+        <input id="Sinh ngày" type="text" placeholder="Ngày sinh" />
+        <br />
+        <label for="Nguyên quán">Nguyên quán</label>
+        <input id="Nguyên quán" type="text" placeholder="Nguyên quán" />
+        <br />
+        <label for="dân tộc">Dân tộc</label>
+        <input id="dân tộc" type="text" placeholder="Dân tộc" />
+        ; <label for="tôn giáo">Tôn giáo</label>
+        <input id="Tôn giáo" type="text" placeholder="Tôn giáo" />
+        <br />
+        <label for="Nơi đăng kí thường trú">Nới đăng kí thường trú</label>
+        <input
+          id="Nơi đăng kí thường trú"
+          type="text"
+          placeholder="Nơi đăng kí thường trú"
+        />
+        <br />
+        <label for="Số sổ hộ khẩu">Số sổ hộ khẩu</label>
+        <input id="Số sổ hộ khẩu" type="text" placeholder="Số sổ hộ khẩu" />
+        <br />
+        <label for="CMND">Số CMND/CCCD</label>
+        <input id="CMND" type="text" placeholder="Số CMND/CCCD" />
+        <br />
+        <label for="Tamtru">Nơi đăng kí tạm trú</label>
+        <input id="Tamtru" type="text" placeholder="Nơi đăng kí tạm trú" />
+        <br />
+        <label for="tenbo">Họ tên cha</label>
+        <input id="Tenbo" type="text" placeholder="Họ tên cha" />
+        <br />
+        <label for="tenme">Họ tên mẹ</label>
+        <input id="Tenme" type="text" placeholder="Họ tên mẹ" />
+        <br />
+        <br />
+        <p>
+          Nay tôi đề nghị Công an Phường(xã, thị trấn):
+          <select name="dropdown">
+            <option>Chọn Phường...</option>
+            <option>Quang Hanh</option>
+            <option>Cẩm Thạch</option>
+          </select>
+          xác nhận đóng dấu giáp lai để xác nhận thông tin cá nhân của tôi.<br />
+          Giấy này dùng cho mục đích:
+          <select name="dropdown">
+            <option>Chọn lý do....</option>
+            <option>Đăng kí kết hôn</option>
+            <option>Xin việc</option>
+            <option>Xuất khẩu lao động</option>
+          </select>
+        </p>
+        <input type="submit" value="Nộp đơn">
+      </main>
+    </body>
+  </html>
+</html>
